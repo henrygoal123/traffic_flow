@@ -3,6 +3,7 @@
 #include <vector>
 #include <memory>
 #include "traffic_ele.h"
+#include "location.pb.h"
 
 
 namespace T_Sim{

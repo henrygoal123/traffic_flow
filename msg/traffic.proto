@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package sim_msg;
+
+
+message Car {
+  int32 id = 1;
+  double t = 2;
+  double x = 3;
+  double y = 4;
+  double heading = 5;
+  double v = 6;
+  double a = 7;
+}
+
+message EgoInfo {
+  int32 id = 1;
+}
+
+message Traffic {
+  repeated Car cars = 1;
+  //
+  EgoInfo  egoinfo= 2;
+  //
+}

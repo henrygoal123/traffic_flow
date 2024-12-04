@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/home/saic/c++demo/traffic_flow/build",
+  "command": "/usr/bin/g++   -I/home/saic/c++demo/traffic_flow/include -I/home/saic/c++demo/traffic_flow/msg  -g   -std=gnu++11 -o CMakeFiles/Traffic_flow.dir/main.cpp.o -c /home/saic/c++demo/traffic_flow/main.cpp",
+  "file": "/home/saic/c++demo/traffic_flow/main.cpp"
+},
+{
+  "directory": "/home/saic/c++demo/traffic_flow/build",
+  "command": "/usr/bin/g++   -I/home/saic/c++demo/traffic_flow/include -I/home/saic/c++demo/traffic_flow/msg  -g   -std=gnu++11 -o CMakeFiles/Traffic_flow.dir/src/actor_car.cpp.o -c /home/saic/c++demo/traffic_flow/src/actor_car.cpp",
+  "file": "/home/saic/c++demo/traffic_flow/src/actor_car.cpp"
+},
+{
+  "directory": "/home/saic/c++demo/traffic_flow/build",
+  "command": "/usr/bin/g++   -I/home/saic/c++demo/traffic_flow/include -I/home/saic/c++demo/traffic_flow/msg  -g   -std=gnu++11 -o CMakeFiles/Traffic_flow.dir/src/ego_car.cpp.o -c /home/saic/c++demo/traffic_flow/src/ego_car.cpp",
+  "file": "/home/saic/c++demo/traffic_flow/src/ego_car.cpp"
+},
+{
+  "directory": "/home/saic/c++demo/traffic_flow/build",
+  "command": "/usr/bin/g++   -I/home/saic/c++demo/traffic_flow/include -I/home/saic/c++demo/traffic_flow/msg  -g   -std=gnu++11 -o CMakeFiles/Traffic_flow.dir/src/traffic_ele.cpp.o -c /home/saic/c++demo/traffic_flow/src/traffic_ele.cpp",
+  "file": "/home/saic/c++demo/traffic_flow/src/traffic_ele.cpp"
+},
+{
+  "directory": "/home/saic/c++demo/traffic_flow/build",
+  "command": "/usr/bin/g++   -I/home/saic/c++demo/traffic_flow/include -I/home/saic/c++demo/traffic_flow/msg  -g   -std=gnu++11 -o CMakeFiles/Traffic_flow.dir/src/openx_parse.cpp.o -c /home/saic/c++demo/traffic_flow/src/openx_parse.cpp",
+  "file": "/home/saic/c++demo/traffic_flow/src/openx_parse.cpp"
+},
+{
+  "directory": "/home/saic/c++demo/traffic_flow/build",
+  "command": "/usr/bin/g++   -I/home/saic/c++demo/traffic_flow/include -I/home/saic/c++demo/traffic_flow/msg  -g   -std=gnu++11 -o CMakeFiles/Traffic_flow.dir/msg/location.pb.cc.o -c /home/saic/c++demo/traffic_flow/msg/location.pb.cc",
+  "file": "/home/saic/c++demo/traffic_flow/msg/location.pb.cc"
+},
+{
+  "directory": "/home/saic/c++demo/traffic_flow/build",
+  "command": "/usr/bin/g++   -I/home/saic/c++demo/traffic_flow/include -I/home/saic/c++demo/traffic_flow/msg  -g   -std=gnu++11 -o CMakeFiles/Traffic_flow.dir/msg/traffic.pb.cc.o -c /home/saic/c++demo/traffic_flow/msg/traffic.pb.cc",
+  "file": "/home/saic/c++demo/traffic_flow/msg/traffic.pb.cc"
+},
+{
+  "directory": "/home/saic/c++demo/traffic_flow/build",
+  "command": "/usr/bin/g++   -I/home/saic/c++demo/traffic_flow/include -I/home/saic/c++demo/traffic_flow/msg  -g   -std=gnu++11 -o CMakeFiles/Traffic_flow.dir/msg/common.pb.cc.o -c /home/saic/c++demo/traffic_flow/msg/common.pb.cc",
+  "file": "/home/saic/c++demo/traffic_flow/msg/common.pb.cc"
+},
+{
+  "directory": "/home/saic/c++demo/traffic_flow/build",
+  "command": "/usr/bin/g++   -I/home/saic/c++demo/traffic_flow/include -I/home/saic/c++demo/traffic_flow/msg  -g   -std=gnu++11 -o CMakeFiles/Traffic_flow.dir/msg/trajectory.pb.cc.o -c /home/saic/c++demo/traffic_flow/msg/trajectory.pb.cc",
+  "file": "/home/saic/c++demo/traffic_flow/msg/trajectory.pb.cc"
+}
+]

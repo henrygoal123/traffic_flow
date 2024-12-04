@@ -5,6 +5,7 @@
 #include "ego_car.h"
 #include "actor_car.h"
 #include "traffic_ele.h"
+#include "openx_parse.h"
 
 bool test(){
     T_Sim::Traffic_Ele tra_ele;
@@ -14,8 +15,22 @@ bool test(){
         tra_ele.Step();   
     }
 }
+bool parse_opendrive(){
+    T_Sim::Parse parse;
+    const char* file_path = "./1122demo.xosc";
+    if (not parse.LoadFile(file_path)){
+        return false;
+    }
+    if (not parse.parse_xosc()){
+        return false;
+    }
+    return true;
+}
 int main(){
-    if (!test()){
+    // if (!test()){
+    //     return -1;
+    // }
+    if (!parse_opendrive()){
         return -1;
     }
     return 0;

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package sim_msg;
+
+
+message Traj_Point {
+  double t = 1;
+  double x = 2;
+  double y = 3;
+  double v = 4;
+  double s =5;
+  double a = 6;
+}
+
+message trajectory {
+  repeated Traj_Point points = 1;
+}

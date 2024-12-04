@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package sim_msg;
+
+import "common.proto";
+
+message Location {
+  double t = 1;
+  Vec3 pos = 2;
+  Vec3 rpy = 3;
+  Vec3 vel = 4;
+  Vec3 acc = 5;
+}
