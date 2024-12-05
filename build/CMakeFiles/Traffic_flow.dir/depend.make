@@ -31,6 +31,9 @@ CMakeFiles/Traffic_flow.dir/src/openx_parse.cpp.o: ../include/openx_parse.h
 CMakeFiles/Traffic_flow.dir/src/openx_parse.cpp.o: ../include/tinyxml2.h
 CMakeFiles/Traffic_flow.dir/src/openx_parse.cpp.o: ../src/openx_parse.cpp
 
+CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.o: ../include/tinyxml2.h
+CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.o: ../src/tinyxml2.cpp
+
 CMakeFiles/Traffic_flow.dir/src/traffic_ele.cpp.o: ../include/actor_car.h
 CMakeFiles/Traffic_flow.dir/src/traffic_ele.cpp.o: ../include/ego_car.h
 CMakeFiles/Traffic_flow.dir/src/traffic_ele.cpp.o: ../include/traffic_ele.h

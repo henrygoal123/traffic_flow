@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Traffic_flow.dir/src/ego_car.cpp.o"
   "CMakeFiles/Traffic_flow.dir/src/traffic_ele.cpp.o"
   "CMakeFiles/Traffic_flow.dir/src/openx_parse.cpp.o"
+  "CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.o"
   "CMakeFiles/Traffic_flow.dir/msg/location.pb.cc.o"
   "CMakeFiles/Traffic_flow.dir/msg/traffic.pb.cc.o"
   "CMakeFiles/Traffic_flow.dir/msg/common.pb.cc.o"

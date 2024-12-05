@@ -13,6 +13,6 @@ namespace T_Sim{
          bool parse_xodr();
          bool parse_xosc();
         private:
-            tinyxml2::XMLDocument* doc_;
+            tinyxml2::XMLDocument doc_;
     };
 };

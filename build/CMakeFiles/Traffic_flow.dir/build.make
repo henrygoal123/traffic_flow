@@ -177,9 +177,33 @@ CMakeFiles/Traffic_flow.dir/src/openx_parse.cpp.o.provides: CMakeFiles/Traffic_f
 CMakeFiles/Traffic_flow.dir/src/openx_parse.cpp.o.provides.build: CMakeFiles/Traffic_flow.dir/src/openx_parse.cpp.o
 
 
+CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.o: CMakeFiles/Traffic_flow.dir/flags.make
+CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.o: ../src/tinyxml2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/saic/c++demo/traffic_flow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.o -c /home/saic/c++demo/traffic_flow/src/tinyxml2.cpp
+
+CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/saic/c++demo/traffic_flow/src/tinyxml2.cpp > CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.i
+
+CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/saic/c++demo/traffic_flow/src/tinyxml2.cpp -o CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.s
+
+CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.o.requires:
+
+.PHONY : CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.o.requires
+
+CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.o.provides: CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Traffic_flow.dir/build.make CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.o.provides.build
+.PHONY : CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.o.provides
+
+CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.o.provides.build: CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.o
+
+
 CMakeFiles/Traffic_flow.dir/msg/location.pb.cc.o: CMakeFiles/Traffic_flow.dir/flags.make
 CMakeFiles/Traffic_flow.dir/msg/location.pb.cc.o: ../msg/location.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/saic/c++demo/traffic_flow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Traffic_flow.dir/msg/location.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/saic/c++demo/traffic_flow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Traffic_flow.dir/msg/location.pb.cc.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Traffic_flow.dir/msg/location.pb.cc.o -c /home/saic/c++demo/traffic_flow/msg/location.pb.cc
 
 CMakeFiles/Traffic_flow.dir/msg/location.pb.cc.i: cmake_force
@@ -203,7 +227,7 @@ CMakeFiles/Traffic_flow.dir/msg/location.pb.cc.o.provides.build: CMakeFiles/Traf
 
 CMakeFiles/Traffic_flow.dir/msg/traffic.pb.cc.o: CMakeFiles/Traffic_flow.dir/flags.make
 CMakeFiles/Traffic_flow.dir/msg/traffic.pb.cc.o: ../msg/traffic.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/saic/c++demo/traffic_flow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Traffic_flow.dir/msg/traffic.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/saic/c++demo/traffic_flow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Traffic_flow.dir/msg/traffic.pb.cc.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Traffic_flow.dir/msg/traffic.pb.cc.o -c /home/saic/c++demo/traffic_flow/msg/traffic.pb.cc
 
 CMakeFiles/Traffic_flow.dir/msg/traffic.pb.cc.i: cmake_force
@@ -227,7 +251,7 @@ CMakeFiles/Traffic_flow.dir/msg/traffic.pb.cc.o.provides.build: CMakeFiles/Traff
 
 CMakeFiles/Traffic_flow.dir/msg/common.pb.cc.o: CMakeFiles/Traffic_flow.dir/flags.make
 CMakeFiles/Traffic_flow.dir/msg/common.pb.cc.o: ../msg/common.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/saic/c++demo/traffic_flow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Traffic_flow.dir/msg/common.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/saic/c++demo/traffic_flow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Traffic_flow.dir/msg/common.pb.cc.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Traffic_flow.dir/msg/common.pb.cc.o -c /home/saic/c++demo/traffic_flow/msg/common.pb.cc
 
 CMakeFiles/Traffic_flow.dir/msg/common.pb.cc.i: cmake_force
@@ -251,7 +275,7 @@ CMakeFiles/Traffic_flow.dir/msg/common.pb.cc.o.provides.build: CMakeFiles/Traffi
 
 CMakeFiles/Traffic_flow.dir/msg/trajectory.pb.cc.o: CMakeFiles/Traffic_flow.dir/flags.make
 CMakeFiles/Traffic_flow.dir/msg/trajectory.pb.cc.o: ../msg/trajectory.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/saic/c++demo/traffic_flow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Traffic_flow.dir/msg/trajectory.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/saic/c++demo/traffic_flow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Traffic_flow.dir/msg/trajectory.pb.cc.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Traffic_flow.dir/msg/trajectory.pb.cc.o -c /home/saic/c++demo/traffic_flow/msg/trajectory.pb.cc
 
 CMakeFiles/Traffic_flow.dir/msg/trajectory.pb.cc.i: cmake_force
@@ -280,6 +304,7 @@ Traffic_flow_OBJECTS = \
 "CMakeFiles/Traffic_flow.dir/src/ego_car.cpp.o" \
 "CMakeFiles/Traffic_flow.dir/src/traffic_ele.cpp.o" \
 "CMakeFiles/Traffic_flow.dir/src/openx_parse.cpp.o" \
+"CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.o" \
 "CMakeFiles/Traffic_flow.dir/msg/location.pb.cc.o" \
 "CMakeFiles/Traffic_flow.dir/msg/traffic.pb.cc.o" \
 "CMakeFiles/Traffic_flow.dir/msg/common.pb.cc.o" \
@@ -293,6 +318,7 @@ Traffic_flow_EXTERNAL_OBJECTS =
 ../bin/Traffic_flow: CMakeFiles/Traffic_flow.dir/src/ego_car.cpp.o
 ../bin/Traffic_flow: CMakeFiles/Traffic_flow.dir/src/traffic_ele.cpp.o
 ../bin/Traffic_flow: CMakeFiles/Traffic_flow.dir/src/openx_parse.cpp.o
+../bin/Traffic_flow: CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.o
 ../bin/Traffic_flow: CMakeFiles/Traffic_flow.dir/msg/location.pb.cc.o
 ../bin/Traffic_flow: CMakeFiles/Traffic_flow.dir/msg/traffic.pb.cc.o
 ../bin/Traffic_flow: CMakeFiles/Traffic_flow.dir/msg/common.pb.cc.o
@@ -300,7 +326,7 @@ Traffic_flow_EXTERNAL_OBJECTS =
 ../bin/Traffic_flow: CMakeFiles/Traffic_flow.dir/build.make
 ../bin/Traffic_flow: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 ../bin/Traffic_flow: CMakeFiles/Traffic_flow.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/saic/c++demo/traffic_flow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ../bin/Traffic_flow"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/saic/c++demo/traffic_flow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ../bin/Traffic_flow"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Traffic_flow.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -313,6 +339,7 @@ CMakeFiles/Traffic_flow.dir/requires: CMakeFiles/Traffic_flow.dir/src/actor_car.
 CMakeFiles/Traffic_flow.dir/requires: CMakeFiles/Traffic_flow.dir/src/ego_car.cpp.o.requires
 CMakeFiles/Traffic_flow.dir/requires: CMakeFiles/Traffic_flow.dir/src/traffic_ele.cpp.o.requires
 CMakeFiles/Traffic_flow.dir/requires: CMakeFiles/Traffic_flow.dir/src/openx_parse.cpp.o.requires
+CMakeFiles/Traffic_flow.dir/requires: CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.o.requires
 CMakeFiles/Traffic_flow.dir/requires: CMakeFiles/Traffic_flow.dir/msg/location.pb.cc.o.requires
 CMakeFiles/Traffic_flow.dir/requires: CMakeFiles/Traffic_flow.dir/msg/traffic.pb.cc.o.requires
 CMakeFiles/Traffic_flow.dir/requires: CMakeFiles/Traffic_flow.dir/msg/common.pb.cc.o.requires

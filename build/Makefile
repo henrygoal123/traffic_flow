@@ -339,6 +339,33 @@ src/openx_parse.cpp.s:
 	$(MAKE) -f CMakeFiles/Traffic_flow.dir/build.make CMakeFiles/Traffic_flow.dir/src/openx_parse.cpp.s
 .PHONY : src/openx_parse.cpp.s
 
+src/tinyxml2.o: src/tinyxml2.cpp.o
+
+.PHONY : src/tinyxml2.o
+
+# target to build an object file
+src/tinyxml2.cpp.o:
+	$(MAKE) -f CMakeFiles/Traffic_flow.dir/build.make CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.o
+.PHONY : src/tinyxml2.cpp.o
+
+src/tinyxml2.i: src/tinyxml2.cpp.i
+
+.PHONY : src/tinyxml2.i
+
+# target to preprocess a source file
+src/tinyxml2.cpp.i:
+	$(MAKE) -f CMakeFiles/Traffic_flow.dir/build.make CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.i
+.PHONY : src/tinyxml2.cpp.i
+
+src/tinyxml2.s: src/tinyxml2.cpp.s
+
+.PHONY : src/tinyxml2.s
+
+# target to generate assembly for a file
+src/tinyxml2.cpp.s:
+	$(MAKE) -f CMakeFiles/Traffic_flow.dir/build.make CMakeFiles/Traffic_flow.dir/src/tinyxml2.cpp.s
+.PHONY : src/tinyxml2.cpp.s
+
 src/traffic_ele.o: src/traffic_ele.cpp.o
 
 .PHONY : src/traffic_ele.o
@@ -399,6 +426,9 @@ help:
 	@echo "... src/openx_parse.o"
 	@echo "... src/openx_parse.i"
 	@echo "... src/openx_parse.s"
+	@echo "... src/tinyxml2.o"
+	@echo "... src/tinyxml2.i"
+	@echo "... src/tinyxml2.s"
 	@echo "... src/traffic_ele.o"
 	@echo "... src/traffic_ele.i"
 	@echo "... src/traffic_ele.s"
