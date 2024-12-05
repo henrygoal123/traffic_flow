@@ -6,6 +6,7 @@
 #include "actor_car.h"
 #include "traffic_ele.h"
 #include "openx_parse.h"
+#include "simloop.h"
 
 bool test(){
     T_Sim::Traffic_Ele tra_ele;
@@ -16,12 +17,12 @@ bool test(){
     }
 }
 bool parse_opendrive(){
-    T_Sim::Parse parse;
+    T_Sim::SimLoop simloop;
     const char* file_path = "./1122demo.xosc";
-    if (not parse.LoadFile(file_path)){
+    if (not simloop.Init(file_path)){
         return false;
     }
-    if (not parse.parse_xosc()){
+    if (not simloop.Step()){
         return false;
     }
     return true;

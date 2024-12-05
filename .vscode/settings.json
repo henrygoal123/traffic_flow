@@ -50,6 +50,20 @@
         "xstring": "cpp",
         "xtr1common": "cpp",
         "xutility": "cpp",
-        "optional": "cpp"
+        "optional": "cpp",
+        "array": "cpp",
+        "*.tcc": "cpp",
+        "cstdarg": "cpp",
+        "cwctype": "cpp",
+        "deque": "cpp",
+        "unordered_map": "cpp",
+        "algorithm": "cpp",
+        "map": "cpp",
+        "memory_resource": "cpp",
+        "set": "cpp",
+        "string_view": "cpp",
+        "fstream": "cpp",
+        "sstream": "cpp",
+        "cinttypes": "cpp"
     }
 }

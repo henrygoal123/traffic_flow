@@ -18,6 +18,7 @@ add_executable(${PROJECT_NAME} main.cpp
                                    src/ego_car.cpp 
                                    src/traffic_ele.cpp
                                    src/openx_parse.cpp
+                                   src/simloop.cpp
                                    src/tinyxml2.cpp
                                    msg/location.pb.cc
                                    msg/traffic.pb.cc
