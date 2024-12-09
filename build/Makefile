@@ -339,6 +339,33 @@ src/openx_parse.cpp.s:
 	$(MAKE) -f CMakeFiles/Traffic_flow.dir/build.make CMakeFiles/Traffic_flow.dir/src/openx_parse.cpp.s
 .PHONY : src/openx_parse.cpp.s
 
+src/pblog.o: src/pblog.cpp.o
+
+.PHONY : src/pblog.o
+
+# target to build an object file
+src/pblog.cpp.o:
+	$(MAKE) -f CMakeFiles/Traffic_flow.dir/build.make CMakeFiles/Traffic_flow.dir/src/pblog.cpp.o
+.PHONY : src/pblog.cpp.o
+
+src/pblog.i: src/pblog.cpp.i
+
+.PHONY : src/pblog.i
+
+# target to preprocess a source file
+src/pblog.cpp.i:
+	$(MAKE) -f CMakeFiles/Traffic_flow.dir/build.make CMakeFiles/Traffic_flow.dir/src/pblog.cpp.i
+.PHONY : src/pblog.cpp.i
+
+src/pblog.s: src/pblog.cpp.s
+
+.PHONY : src/pblog.s
+
+# target to generate assembly for a file
+src/pblog.cpp.s:
+	$(MAKE) -f CMakeFiles/Traffic_flow.dir/build.make CMakeFiles/Traffic_flow.dir/src/pblog.cpp.s
+.PHONY : src/pblog.cpp.s
+
 src/simloop.o: src/simloop.cpp.o
 
 .PHONY : src/simloop.o
@@ -453,6 +480,9 @@ help:
 	@echo "... src/openx_parse.o"
 	@echo "... src/openx_parse.i"
 	@echo "... src/openx_parse.s"
+	@echo "... src/pblog.o"
+	@echo "... src/pblog.i"
+	@echo "... src/pblog.s"
 	@echo "... src/simloop.o"
 	@echo "... src/simloop.i"
 	@echo "... src/simloop.s"

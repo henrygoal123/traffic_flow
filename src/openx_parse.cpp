@@ -43,12 +43,12 @@ namespace T_Sim{
                 double car_x = std::stod(positon->Attribute("x"));
                 double car_y = std::stod(positon->Attribute("y"));
                 double car_z = std::stod(positon->Attribute("z"));
-                // sim_msg::Car* car = traffic.add_cars();
-                // car->set_x(car_x);
-                // car->set_y(car_y);
-                // car->set_v(car_speed);
+                sim_msg::Car* car = traffic.add_cars();
+                car->set_x(car_x);
+                car->set_y(car_y);
+                car->set_v(car_speed);
                 // traffic.mutable_cars()->set_x(car_x);
-                std::cout <<"car pos" << car_x <<" , "<< car_y<< std::endl;
+                std::cout <<"car pos" << traffic.cars(0).x() <<" , "<< traffic.cars(0).y() << std::endl;
             }
             Private = Private->NextSiblingElement();
             std::cout <<"ego pos" << loc.mutable_pos()->x() <<" , "<<  loc.mutable_pos()->y() << std::endl;

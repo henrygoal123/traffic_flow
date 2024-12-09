@@ -40,6 +40,18 @@ location.pb.h
 tinyxml2.h
 ../include/tinyxml2.h
 
+../include/pblog.h
+cstdint
+-
+ctime
+-
+fstream
+-
+iostream
+-
+memory
+-
+
 ../include/simloop.h
 iostream
 -
@@ -51,6 +63,8 @@ memory
 -
 openx_parse.h
 ../include/openx_parse.h
+pblog.h
+../include/pblog.h
 
 ../include/tinyxml2.h
 ctype.h
@@ -416,9 +430,19 @@ ego_car.h
 openx_parse.h
 /home/saic/c++demo/traffic_flow/src/openx_parse.h
 
+/home/saic/c++demo/traffic_flow/src/pblog.cpp
+cstdint
+-
+string.h
+-
+pblog.h
+/home/saic/c++demo/traffic_flow/src/pblog.h
+
 /home/saic/c++demo/traffic_flow/src/simloop.cpp
 simloop.h
 /home/saic/c++demo/traffic_flow/src/simloop.h
+ctime
+-
 
 /home/saic/c++demo/traffic_flow/src/tinyxml2.cpp
 tinyxml2.h

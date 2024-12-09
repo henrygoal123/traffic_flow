@@ -4,6 +4,7 @@
 #include <vector>
 #include <memory>
 #include "openx_parse.h"
+#include "pblog.h"
 
 namespace T_Sim{
     class SimLoop{

@@ -26,6 +26,11 @@
 },
 {
   "directory": "/home/saic/c++demo/traffic_flow/build",
+  "command": "/usr/bin/g++   -I/home/saic/c++demo/traffic_flow/include -I/home/saic/c++demo/traffic_flow/msg  -g   -std=gnu++11 -o CMakeFiles/Traffic_flow.dir/src/pblog.cpp.o -c /home/saic/c++demo/traffic_flow/src/pblog.cpp",
+  "file": "/home/saic/c++demo/traffic_flow/src/pblog.cpp"
+},
+{
+  "directory": "/home/saic/c++demo/traffic_flow/build",
   "command": "/usr/bin/g++   -I/home/saic/c++demo/traffic_flow/include -I/home/saic/c++demo/traffic_flow/msg  -g   -std=gnu++11 -o CMakeFiles/Traffic_flow.dir/src/simloop.cpp.o -c /home/saic/c++demo/traffic_flow/src/simloop.cpp",
   "file": "/home/saic/c++demo/traffic_flow/src/simloop.cpp"
 },

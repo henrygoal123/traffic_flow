@@ -5,6 +5,7 @@ CMakeFiles/Traffic_flow.dir/main.cpp.o
  ../include/actor_car.h
  ../include/ego_car.h
  ../include/openx_parse.h
+ ../include/pblog.h
  ../include/simloop.h
  ../include/tinyxml2.h
  ../include/traffic_ele.h
@@ -40,8 +41,12 @@ CMakeFiles/Traffic_flow.dir/src/openx_parse.cpp.o
  ../msg/traffic.pb.h
  ../msg/trajectory.pb.h
  /home/saic/c++demo/traffic_flow/src/openx_parse.cpp
+CMakeFiles/Traffic_flow.dir/src/pblog.cpp.o
+ ../include/pblog.h
+ /home/saic/c++demo/traffic_flow/src/pblog.cpp
 CMakeFiles/Traffic_flow.dir/src/simloop.cpp.o
  ../include/openx_parse.h
+ ../include/pblog.h
  ../include/simloop.h
  ../include/tinyxml2.h
  ../msg/common.pb.h
