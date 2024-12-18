@@ -19,6 +19,7 @@ add_executable(${PROJECT_NAME} main.cpp
                                    src/traffic_ele.cpp
                                    src/openx_parse.cpp
                                    src/pblog.cpp
+                                   src/cord_transfer.cpp
                                    src/simloop.cpp
                                    src/tinyxml2.cpp
                                    msg/location.pb.cc

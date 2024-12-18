@@ -1,5 +1,6 @@
 #include "simloop.h"
 #include <ctime>
+#include "cord_transfer.h"
 
 
 
@@ -20,7 +21,12 @@ namespace T_Sim{
         pblog::pblog_event pb_event;
         p_log.msg2pblog(pb_event,"traffic",tra_msg,now);
         p_log.write_pblog(pb_event,"./output.pblog");
-
+//Transfer2enu;
+        double lon = loc.mutable_pos()->x();
+        double lat = loc.mutable_pos()->y();
+        double alt = loc.mutable_pos()->z();
+        Eigen::Vector3d xyz = Cord_Transfer::Lonlat2Global(lon,lat,alt);
+        
 
 
         time_t now2 = time(0);
